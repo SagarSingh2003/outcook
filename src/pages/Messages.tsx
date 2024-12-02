@@ -4,7 +4,7 @@ import { useRecoilValue } from "recoil";
 
 export default function Messages(){
 
-    const todoList = useRecoilValue(currentMessagesList);
+    const messageList = useRecoilValue(currentMessagesList);
     
 
     return(
