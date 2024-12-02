@@ -1,0 +1,1 @@
+export const mock_message_list_api = "https://flipkart-email-mock.vercel.app/";
