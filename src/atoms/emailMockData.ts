@@ -17,6 +17,6 @@ export const currentPage = atom({
 export const getPaginatedMessageList = selector({
     key: 'GetPaginatedMessageList',
     get: async ({get}) => {
-        return await get_Paginated_Message_List(currentPage)
+        return await get_Paginated_Messages_List(currentPage)
     }    
 })

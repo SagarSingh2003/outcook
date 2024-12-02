@@ -1,4 +1,5 @@
 import { currentMessagesList } from "@/atoms/emailMockData";
+import Header from "@/ui/Component/Header";
 import { useRecoilValue } from "recoil";
 
 export default function Messages(){
@@ -7,8 +8,8 @@ export default function Messages(){
     
 
     return(
-        <>
-         Messages
-        </>
+        <main>
+            <Header />
+        </main>
     )
 }
